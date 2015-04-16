@@ -22,3 +22,5 @@ SRC_URI[md5sum] = "6f7690c6ba9750e3cbb8ebd10078a79a"
 SRC_URI[sha256sum] = "4c4f3c7c479994c3ce09f542d4fbdc03eed58a2d7f320d32f2baf238b5b6f566"
 
 BBCLASSEXTEND = "native"
+
+ALLOW_EMPTY_${PN} = "1"

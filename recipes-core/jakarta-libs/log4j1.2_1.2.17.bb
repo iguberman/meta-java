@@ -35,3 +35,4 @@ SRC_URI[sha256sum] = "a528e3771ee6234661b5eb0fa02e14faee89dfec38de94088c163ddf2a
 
 BBCLASSEXTEND = "native"
 
+ALLOW_EMPTY_${PN} = "1"
