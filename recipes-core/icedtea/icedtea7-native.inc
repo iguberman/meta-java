@@ -45,7 +45,7 @@ export ALT_FREETYPE_LIB_PATH = "${STAGING_LIBDIR}"
 # OpenJDK supports parallel compilation but uses a plain number for this.
 # In OE we have PARALLEL_MAKE which is the actual option passed to make,
 # e.g. "-j 4".
-ICEDTEA_PARALLEL_MAKE := "${PARALLEL_MAKE}"
+ICEDTEA_PARALLEL_MAKE := "-j1"
 PARALLEL_MAKE = ""
 def get_jdk7_native_jobs(d):
     import bb
