@@ -15,8 +15,9 @@ BUILD_DIR_ECJ = "openjdk.build-ecj"
 # Force arm mode for now
 ARM_INSTRUCTION_SET_armv4t = "ARM"
 
-# Enable zero mode for arm based builds, as normal hotspot fails to build
+# Enable zero mode for arm and powerpc based builds, as normal hotspot fails to build
 PACKAGECONFIG_append_arm = " zero"
+PACKAGECONFIG_append_powerpc = " zero"
 
 CORBA_CHANGESET = "7deeb4f70404"
 SRC_URI[corba.md5sum] = "544b4963d14fb7155b12dbc56d058649"
