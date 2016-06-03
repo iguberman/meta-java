@@ -46,3 +46,4 @@ do_configure_prepend() {
         export CFLAGS="${CFLAGS} -fno-strict-aliasing"
 }
 
+do_configure[vardeps] += "TOPDIR"
