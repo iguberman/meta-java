@@ -51,6 +51,7 @@ ICEDTEAPATCHES = "\
     file://icedtea-xawt-crosscompile-fix.patch;apply=no \
     file://icedtea-jdk-unzip.patch;apply=no \
     file://icedtea-dtrace-std_h.patch;apply=no \
+    file://icedtea-hotspot-CVE-2016-3550.patch;apply=no \
 "
 
 DISTRIBUTION_PATCHES = "\
@@ -61,6 +62,7 @@ DISTRIBUTION_PATCHES = "\
     patches/icedtea-xawt-crosscompile-fix.patch \
     patches/icedtea-jdk-unzip.patch \
     patches/icedtea-dtrace-std_h.patch \
+    patches/icedtea-hotspot-CVE-2016-3550.patch \
 "
 
 export DISTRIBUTION_PATCHES
