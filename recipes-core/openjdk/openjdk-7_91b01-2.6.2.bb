@@ -52,6 +52,7 @@ ICEDTEAPATCHES = "\
     file://icedtea-jdk-unzip.patch;apply=no \
     file://icedtea-dtrace-std_h.patch;apply=no \
     file://icedtea-hotspot-CVE-2016-3550.patch;apply=no \
+    file://icedtea-jaxp-CVE-2016-3500.patch;apply=no \
 "
 
 DISTRIBUTION_PATCHES = "\
@@ -63,6 +64,7 @@ DISTRIBUTION_PATCHES = "\
     patches/icedtea-jdk-unzip.patch \
     patches/icedtea-dtrace-std_h.patch \
     patches/icedtea-hotspot-CVE-2016-3550.patch \
+    patches/icedtea-jaxp-CVE-2016-3500.patch \
 "
 
 export DISTRIBUTION_PATCHES
