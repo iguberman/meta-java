@@ -58,6 +58,7 @@ ICEDTEAPATCHES = "\
     file://icedtea-corba-CVE-2016-3458.patch;apply=no \
     file://icedtea-jdk-CVE-2016-5554.patch;apply=no \
     file://icedtea-hotspot-CVE-2016-5582.patch;apply=no \
+    file://icedtea-jdk-CVE-2016-5573.patch;apply=no \
 "
 
 DISTRIBUTION_PATCHES = "\
@@ -75,6 +76,7 @@ DISTRIBUTION_PATCHES = "\
     patches/icedtea-corba-CVE-2016-3458.patch \
     patches/icedtea-jdk-CVE-2016-5554.patch \
     patches/icedtea-hotspot-CVE-2016-5582.patch \
+    patches/icedtea-jdk-CVE-2016-5573.patch \
 "
 
 export DISTRIBUTION_PATCHES
