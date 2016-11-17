@@ -19,6 +19,7 @@ PATCHES_URI_append = "\
     file://corba-CVE-2016-3458.patch \
     file://jdk-CVE-2016-5554.patch \
     file://hotspot-CVE-2016-5582.patch \
+    file://jdk-CVE-2016-5597.patch \
 "
 
 do_compile_append() {
