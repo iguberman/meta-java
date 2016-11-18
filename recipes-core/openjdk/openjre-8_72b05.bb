@@ -21,6 +21,10 @@ PATCHES_URI_append = "\
     file://hotspot-CVE-2016-5582.patch \
     file://jdk-CVE-2016-5597.patch \
     file://jdk-CVE-2016-5573.patch \
+    file://jdk-PKCS-basic-tests.patch \
+    file://jdk-CVE-2016-5542.patch \
+    file://jdk-CVE-2016-5542-2.patch \
+    file://jdk-CVE-2016-5542-3.patch \
 "
 
 do_compile_append() {
