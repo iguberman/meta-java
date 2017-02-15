@@ -185,3 +185,5 @@ oe_java_simple_wrapper() {
   echo >> $output
   echo "exec \${JAVA} \${VMARGS} \${CLASSPATH_ARG} \${MAIN_CLASS} \${@}" >> $output
 }
+
+do_unpackpost[dirs] = "${B}"

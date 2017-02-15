@@ -59,3 +59,5 @@ addtask removebinaries after do_unpack before do_patch
 do_install_append() {
   oe_jarinstall ${JARFILENAME} ${ALTJARFILENAMES}
 }
+
+do_unpackpost[dirs] = "${B}"
